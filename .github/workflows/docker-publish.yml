@@ -80,7 +80,7 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           build-args: |
-            MONGO_EXPRESS_VERSION=release/v1.1.0-rc-2
+            MONGO_EXPRESS_VERSION=master
 
       # Sign the resulting Docker image digest except on PRs.
       # This will only write to the public Rekor transparency log when the Docker
